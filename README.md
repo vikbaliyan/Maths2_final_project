@@ -1,6 +1,8 @@
-# CNN and RCNN Image Classifier
+# BreatheAI
 
-This project showcases the implementation of image classification using Convolutional Neural Networks (CNN) and VGG16 fine-tuned models. The models have been built and trained using TensorFlow and PyTorch respectively, while the web interface to predict image classes has been designed using Streamlit.
+# BreatheAI: COVID-19 Chest Scan Classifier
+
+This project showcases the implementation of image classification using Convolutional Neural Networks (CNN) and VGG16 fine-tuned models for COVID-19 chest scan analysis. The models have been built and trained using TensorFlow and PyTorch respectively, while the web interface to predict image classes has been designed using Streamlit.
 
 ## Table of Contents
 
@@ -13,13 +15,14 @@ This project showcases the implementation of image classification using Convolut
   - [VGG16 Fine Tuning](#vgg16-fine-tuning)
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
+- [References](#references)
 
 ## Introduction
 
-This project consists of two parts:
+BreatheAI is a powerful tool that leverages cutting-edge deep learning techniques to analyze chest scans and classify them for potential COVID-19 infection. The project consists of two parts:
 1. **CNN Model**: Implemented using TensorFlow/Keras, involving data augmentation, creating, compiling, training, and saving the model.
 2. **RCNN Model using VGG16 Fine Tuning**: Implemented using PyTorch and torchvision, involving data preparation, fine-tuning, training, and saving the model.
-3. **Streamlit Application**: A simple web application that allows users to upload images and predict the class using the trained CNN model.
+3. **Streamlit Application**: A simple web application that allows users to upload chest scans and predict the likelihood of COVID-19 infection using the trained CNN model.
 
 ## Requirements
 
