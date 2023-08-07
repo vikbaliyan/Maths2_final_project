@@ -12,7 +12,7 @@ This project showcases the implementation of image classification using Convolut
 - [Usage](#usage)
 - [Models Description](#models-description)
   - [CNN Model](#cnn-model)
-  - [VGG16 Fine Tuning](#vgg16-fine-tuning)
+  - [VGG16 and MobilenetV2 Fine Tuning](#vgg16-fine-tuning)
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
 - [References](#references)
