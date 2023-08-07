@@ -12,7 +12,7 @@ class_names = ['class_1', 'class_2', 'class_3']
 
 def preprocess_image(image):
     # Resize and preprocess the image
-    image = image.resize((150, 150))
+    image = image.resize((224, 224))
     image = np.asarray(image) / 255.0
     image = np.expand_dims(image, axis=0)
     return image
