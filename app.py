@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image
 
 # Load the saved model
-model = load_model('trained_model.h5')
+model = load_model('mobilenet_v2.pth')
 
 # Class names (change these based on your classes)
 class_names = ['class_1', 'class_2', 'class_3']
