@@ -22,7 +22,7 @@ This project showcases the implementation of image classification using Convolut
 BreatheAI is a powerful tool that leverages cutting-edge deep learning techniques to analyze chest scans and classify them for potential COVID-19 infection. The project consists of two parts:
 1. **CNN Model**: Implemented using TensorFlow/Keras, involving data augmentation, creating, compiling, training, and saving the model.
 2. **VGG16 and MobilenetV2 Fine Tuning**: Implemented using PyTorch and torchvision, involving data preparation, fine-tuning, training, and saving the models.
-3. **Streamlit Application**: A simple web application that allows users to upload chest scans and predict the likelihood of COVID-19 infection using the trained CNN model.
+3. **Streamlit Application**: A simple web application that allows users to upload chest scans and predict the likelihood of COVID-19 infection using the trained CNN model.You can access the application using the link in Usage Section.
 
 ## Requirements
 
@@ -71,6 +71,7 @@ jupyter notebook maths2_final.ipynb
 ## Models Description
 
 ### CNN Model
+
 The CNN model is implemented using TensorFlow/Keras with the following architecture:
 
 - Convolution layers with ReLU activation functions.
