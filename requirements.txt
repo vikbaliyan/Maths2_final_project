@@ -1,0 +1,9 @@
+tensorflow>=2.0
+pytorch
+torchvision
+streamlit
+Pillow
+matplotlib
+numpy
+jupyter
+keras
