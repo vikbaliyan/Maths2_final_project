@@ -5,14 +5,14 @@ import numpy as np
 from PIL import Image
 
 # Load the saved model
-model = load_model(r"C:\Users\user\Downloads\Coid19_final\trained_model.h5")
+model = load_model('fine_tuned_mobilenetv2.h5')
 
 # Class names (change these based on your classes)
 class_names = ['class_1', 'class_2', 'class_3']
 
 def preprocess_image(image):
     # Resize and preprocess the image
-    image = image.resize((150, 150))
+    image = image.resize((224, 224))
     image = np.asarray(image) / 255.0
     image = np.expand_dims(image, axis=0)
     return image

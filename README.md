@@ -11,8 +11,8 @@ This project showcases the implementation of image classification using Convolut
 - [Installation](#installation)
 - [Usage](#usage)
 - [Models Description](#models-description)
-  - [CNN Model](#cnn-model)
-  - [VGG16 Fine Tuning](#vgg16-fine-tuning)
+- [CNN Model](#cnn-model)
+- [VGG16 and MobilenetV2 Fine Tuning](#vgg16-fine-tuning)
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
 - [References](#references)
@@ -20,9 +20,12 @@ This project showcases the implementation of image classification using Convolut
 ## Introduction
 
 BreatheAI is a powerful tool that leverages cutting-edge deep learning techniques to analyze chest scans and classify them for potential COVID-19 infection. The project consists of two parts:
+
 1. **CNN Model**: Implemented using TensorFlow/Keras, involving data augmentation, creating, compiling, training, and saving the model.
+
 2. **VGG16 and MobilenetV2 Fine Tuning**: Implemented using PyTorch and torchvision, involving data preparation, fine-tuning, training, and saving the models.
-3. **Streamlit Application**: A simple web application that allows users to upload chest scans and predict the likelihood of COVID-19 infection using the trained CNN model.
+
+3. **Streamlit Application**: A simple web application that allows users to upload chest scans and predict the likelihood of COVID-19 infection using the trained CNN model.You can access the application using the link in Usage Section.
 
 ## Requirements
 
@@ -49,6 +52,7 @@ pip install -r requirements.txt
 ## Usage
 
 ### Run the Streamlit Application
+
 Start the Streamlit application by running:
 
 \```bash
@@ -58,10 +62,11 @@ streamlit run app.py
 Access the application via a web browser at:
 
 \```plaintext
-http://localhost:8080
+https://maths2finalproject-yioaa34nrizqnx8ieq7tqb.streamlit.app/
 \```
 
 ### Run the Jupyter Notebook
+
 Open the Jupyter Notebook to train and test the models:
 
 \```bash
@@ -71,6 +76,7 @@ jupyter notebook maths2_final.ipynb
 ## Models Description
 
 ### CNN Model
+
 The CNN model is implemented using TensorFlow/Keras with the following architecture:
 
 - Convolution layers with ReLU activation functions.
@@ -79,6 +85,7 @@ The CNN model is implemented using TensorFlow/Keras with the following architect
 - Softmax activation in the output layer.
 
 ### VGG16 and MobilenetV2 Fine Tuning
+
 Both the VGG16 and MobilenetV2 models have been fine-tuned to suit the specific classification task. This involves:
 
 - Loading the pre-trained VGG16 and MobilenetV2 models.
