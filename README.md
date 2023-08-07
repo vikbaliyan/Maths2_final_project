@@ -39,10 +39,6 @@ BreatheAI is a powerful tool that leverages cutting-edge deep learning technique
 
 Clone the repository:
 
-\```bash
-git clone https://github.com/your-username/your-project-name.git
-\```
-
 Navigate to the project directory and install the required packages:
 
 \```bash
@@ -62,14 +58,14 @@ streamlit run app.py
 Access the application via a web browser at:
 
 \```plaintext
-http://localhost:8501
+http://localhost:8080
 \```
 
 ### Run the Jupyter Notebook
 Open the Jupyter Notebook to train and test the models:
 
 \```bash
-jupyter notebook your-notebook-name.ipynb
+jupyter notebook maths2_final.ipynb
 \```
 
 ## Models Description
@@ -82,12 +78,13 @@ The CNN model is implemented using TensorFlow/Keras with the following architect
 - Fully connected Dense layers.
 - Softmax activation in the output layer.
 
-### VGG16 Fine Tuning
-The VGG16 model has been fine-tuned to suit the specific classification task. This involves:
+### VGG16 and MobilenetV2 Fine Tuning
+Both the VGG16 and MobilenetV2 models have been fine-tuned to suit the specific classification task. This involves:
 
-- Loading a pre-trained VGG16 model.
-- Modifying the classifier to match the number of classes.
+- Loading the pre-trained VGG16 and MobilenetV2 models.
+- Modifying the classifiers to match the number of classes.
 - Fine-tuning using the SGD optimizer and Cross-Entropy Loss.
+
 
 ## References
 
