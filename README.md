@@ -2,8 +2,7 @@
 
 # BreatheAI: Covid19/Pneumonia Detection
 
-This project showcases the implementation of image classification using Convolutional Neural Networks (CNN) and VGG16 and MobileNet_V2 fine-tuned models for COVID-19 chest scan analysis. The models have been built and trained using TensorFlow and PyTorch respectively, while the web interface to predict image classes has been designed using Streamlit.
-
+This project showcases the implementation of image classification using Convolutional Neural Networks (CNN) and VGG16 and MobileNet_V2 fine-tuned models for COVID-19 chest scan analysis.The models have been built and trained using TensorFlow and PyTorch respectively, while the web interface to predict image classes has been designed using Streamlit.
 ## Table of Contents
 
 - [Introduction](#introduction)
