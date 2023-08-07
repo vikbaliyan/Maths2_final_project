@@ -58,7 +58,7 @@ streamlit run app.py
 Access the application via a web browser at:
 
 \```plaintext
-http://localhost:8080
+https://maths2finalproject-yioaa34nrizqnx8ieq7tqb.streamlit.app/
 \```
 
 ### Run the Jupyter Notebook
