@@ -1,6 +1,6 @@
 # BreatheAI
 
-# BreatheAI: COVID-19 Chest Scan Classifier
+# BreatheAI: Covid19/Pneumonia Detection
 
 This project showcases the implementation of image classification using Convolutional Neural Networks (CNN) and VGG16 fine-tuned models for COVID-19 chest scan analysis. The models have been built and trained using TensorFlow and PyTorch respectively, while the web interface to predict image classes has been designed using Streamlit.
 
